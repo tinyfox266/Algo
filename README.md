@@ -10,8 +10,51 @@
 - [x] Radix Sort
 - [x] Bucket Sort
 
-# 图算法
+## 图算法
 - [x] Dijkstra's Algorithm(Single Source Shortest Path)
 - [x] Prim Algorithm(Minimum Generated Tree)
 - [x] Kruskal's Algorithm(Minimum Generated Tree)
 - [x] Topological Order
+
+## 字符串算法
+- [x] KMP
+
+# 常用的算法设计方法
+## Divide Conquer(分治) 
+分治法是先将问题规模为n的问题分解为两个规模为n/2的子问题，然后将两个子问题的
+解合并为原问题的解。其实现的框架为
+    f(input):
+        res1 = f(one half of input);
+        res2 = f(another half of input);
+        res = merge(res1, res2);
+        return res;
+    
+其代表算法为mergesort和quicksort
+
+## Backtracing(回溯)
+回溯算法是递归+恢复状态。其算法框架为
+    f(input) 
+        fetch one element x from input
+        mark(x);
+        f(input/{x})
+        unmark(x);
+
+## Dynamic Programming(动态规划)
+
+## Greedy(贪心)
+局部最优解为全局最优解。
+
+## 分支限界法
+分支限界法是回溯法求解设计寻找某个目标函数最小（或最大值）问题的一种变形方法。
+
+
+## Binary Search(二分查找)
+利用数据结构（如数组、有分查找树等）中元素已经排好序的这个性质。
+
+## Two Pointer(从两头压缩问题)
+
+## DFS(深度优先搜索)
+
+## BFS(广度优先搜索)
+
+
