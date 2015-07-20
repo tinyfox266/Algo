@@ -1,5 +1,5 @@
-# ĞèÒªÁË½âµÄËã·¨
-##ÅÅĞò
+# éœ€è¦äº†è§£çš„ç®—æ³•
+##æ’åº
 - [x] Insertion Sort
 - [x] Bubble Sort
 - [x] Selection Sort
@@ -10,51 +10,81 @@
 - [x] Radix Sort
 - [x] Bucket Sort
 
-## Í¼Ëã·¨
-- [x] Dijkstra's Algorithm(Single Source Shortest Path)
-- [x] Prim Algorithm(Minimum Generated Tree)
-- [x] Kruskal's Algorithm(Minimum Generated Tree)
+## å›¾ç®—æ³•
+- [x] Dijkstra (Single Source Shortest Path)
+- [x] Prim (Minimum Generated Tree)
+- [x] Kruskal (Minimum Generated Tree)
 - [x] Topological Order
+- [x] DFS
+- [x] BFS
+- [ ] Bellman-Ford (Single Source Shortest Path)
+- [ ] Floyd-Warshall (All Shortest Path)
+- [ ] Ford-Fulkerson Method (Maximum Flow)
 
-## ×Ö·û´®Ëã·¨
+## å­—ç¬¦ä¸²ç®—æ³•
 - [x] KMP
+- [ ] Rabin-Karp
 
-# ³£ÓÃµÄËã·¨Éè¼Æ·½·¨
-## Divide Conquer(·ÖÖÎ) 
-·ÖÖÎ·¨ÊÇÏÈ½«ÎÊÌâ¹æÄ£ÎªnµÄÎÊÌâ·Ö½âÎªÁ½¸ö¹æÄ£Îªn/2µÄ×ÓÎÊÌâ£¬È»ºó½«Á½¸ö×ÓÎÊÌâµÄ
-½âºÏ²¢ÎªÔ­ÎÊÌâµÄ½â¡£ÆäÊµÏÖµÄ¿ò¼ÜÎª
+## çº¿æ€§è§„åˆ’
+- [ ] Simplex Method
+
+
+## å‡ ä½•å­¦
+- [ ] Graham's scan
+- [ ] Jarvis March
+# å¸¸ç”¨çš„æ•°æ®ç»“æ„
+- [x] Stack
+- [x] Heap
+- [x] Queue
+- [x] Linked List
+- [ ] Priority Queue
+- [ ] Dequeue
+- [x] Binary Tree
+- [x] Binary Search Tree
+- [ ] AVL Tree
+- [ ] Red-Black Tree
+# å¸¸ç”¨çš„ç®—æ³•è®¾è®¡æ–¹æ³•
+## Divide Conquer(åˆ†æ²») 
+åˆ†æ²»æ³•æ˜¯å…ˆå°†é—®é¢˜è§„æ¨¡ä¸ºnçš„é—®é¢˜åˆ†è§£ä¸ºä¸¤ä¸ªè§„æ¨¡ä¸ºn/2çš„å­é—®é¢˜ï¼Œç„¶åå°†ä¸¤ä¸ªå­é—®é¢˜çš„
+è§£åˆå¹¶ä¸ºåŸé—®é¢˜çš„è§£ã€‚å…¶å®ç°çš„æ¡†æ¶ä¸º
+```
     f(input):
         res1 = f(one half of input);
         res2 = f(another half of input);
         res = merge(res1, res2);
         return res;
-    
-Æä´ú±íËã·¨ÎªmergesortºÍquicksort
+```    
 
-## Backtracing(»ØËİ)
-»ØËİËã·¨ÊÇµİ¹é+»Ö¸´×´Ì¬¡£ÆäËã·¨¿ò¼ÜÎª
+å…¶ä»£è¡¨ç®—æ³•ä¸ºmergesortå’Œquicksort.
+
+## Backtracing(å›æº¯)
+å›æº¯ç®—æ³•æ˜¯é€’å½’+æ¢å¤çŠ¶æ€ã€‚å…¶ç®—æ³•æ¡†æ¶ä¸º
+```
     f(input) 
         fetch one element x from input
         mark(x);
         f(input/{x})
         unmark(x);
+```
+## Dynamic Programming(åŠ¨æ€è§„åˆ’)
 
-## Dynamic Programming(¶¯Ì¬¹æ»®)
+## Greedy(è´ªå¿ƒ)
+å±€éƒ¨æœ€ä¼˜è§£ä¸ºå…¨å±€æœ€ä¼˜è§£ã€‚
+- [ ] Huffman
+- [x] Prim
+- [x] Kruskal
 
-## Greedy(Ì°ĞÄ)
-¾Ö²¿×îÓÅ½âÎªÈ«¾Ö×îÓÅ½â¡£
-
-## ·ÖÖ§ÏŞ½ç·¨
-·ÖÖ§ÏŞ½ç·¨ÊÇ»ØËİ·¨Çó½âÉè¼ÆÑ°ÕÒÄ³¸öÄ¿±êº¯Êı×îĞ¡£¨»ò×î´óÖµ£©ÎÊÌâµÄÒ»ÖÖ±äĞÎ·½·¨¡£
+## åˆ†æ”¯é™ç•Œæ³•
+åˆ†æ”¯é™ç•Œæ³•æ˜¯å›æº¯æ³•æ±‚è§£è®¾è®¡å¯»æ‰¾æŸä¸ªç›®æ ‡å‡½æ•°æœ€å°ï¼ˆæˆ–æœ€å¤§å€¼ï¼‰é—®é¢˜çš„ä¸€ç§å˜å½¢æ–¹æ³•ã€‚
 
 
-## Binary Search(¶ş·Ö²éÕÒ)
-ÀûÓÃÊı¾İ½á¹¹£¨ÈçÊı×é¡¢ÓĞ·Ö²éÕÒÊ÷µÈ£©ÖĞÔªËØÒÑ¾­ÅÅºÃĞòµÄÕâ¸öĞÔÖÊ¡£
+## Binary Search(äºŒåˆ†æŸ¥æ‰¾)
+åˆ©ç”¨æ•°æ®ç»“æ„ï¼ˆå¦‚æ•°ç»„ã€æœ‰åˆ†æŸ¥æ‰¾æ ‘ç­‰ï¼‰ä¸­å…ƒç´ å·²ç»æ’å¥½åºçš„è¿™ä¸ªæ€§è´¨ã€‚
 
-## Two Pointer(´ÓÁ½Í·Ñ¹ËõÎÊÌâ)
+## Two Pointer(ä»ä¸¤å¤´å‹ç¼©é—®é¢˜)
 
-## DFS(Éî¶ÈÓÅÏÈËÑË÷)
+## DFS(æ·±åº¦ä¼˜å…ˆæœç´¢)
 
-## BFS(¹ã¶ÈÓÅÏÈËÑË÷)
+## BFS(å¹¿åº¦ä¼˜å…ˆæœç´¢)
 
 
