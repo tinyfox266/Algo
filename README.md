@@ -17,21 +17,22 @@
 - [x] Topological Order
 - [x] DFS
 - [x] BFS
-- [ ] Bellman-Ford (Single Source Shortest Path)
-- [ ] Floyd-Warshall (All Shortest Path)
-- [ ] Ford-Fulkerson Method (Maximum Flow)
+- [x] Bellman-Ford (Single Source Shortest Path)
+- [x] Floyd-Warshall (All Shortest Path)
+- [x] Ford-Fulkerson Method (Maximum Flow)
 
 ## 字符串算法
 - [x] KMP
 - [ ] Rabin-Karp
 
 ## 线性规划
-- [ ] Simplex Method
+- [x] Simplex Method
 
 
 ## 几何学
-- [ ] Graham's scan
+- [x] Graham's scan
 - [ ] Jarvis March
+
 # 常用的数据结构
 - [x] Stack
 - [x] Heap
@@ -43,6 +44,7 @@
 - [x] Binary Search Tree
 - [ ] AVL Tree
 - [ ] Red-Black Tree
+
 # 常用的算法设计方法
 ## Divide Conquer(分治) 
 分治法是先将问题规模为n的问题分解为两个规模为n/2的子问题，然后将两个子问题的
