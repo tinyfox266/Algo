@@ -23,7 +23,7 @@
 
 ## 字符串算法
 - [x] KMP
-- [ ] Rabin-Karp
+- [x] Rabin-Karp
 
 ## 线性规划
 - [x] Simplex Method
@@ -31,6 +31,7 @@
 
 ## 几何学
 - [x] Graham's scan
+    * [凸包 — Graham Scan算法分析与实现(C++)](http://www.wutianqi.com/?p=2622)
 - [ ] Jarvis March
 
 # 常用的数据结构
@@ -38,8 +39,8 @@
 - [x] Heap
 - [x] Queue
 - [x] Linked List
-- [ ] Priority Queue
-- [ ] Dequeue
+- [x] Priority Queue
+- [x] Dequeue
 - [x] Binary Tree
 - [x] Binary Search Tree
 - [ ] AVL Tree
