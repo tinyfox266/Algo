@@ -12,18 +12,22 @@
 
 ## 图算法
 - [x] Dijkstra (Single Source Shortest Path)
+- [ ] Bellman-Ford (Single Source Shortest Path)
 - [x] Prim (Minimum Generated Tree)
 - [x] Kruskal (Minimum Generated Tree)
 - [x] Topological Order
 - [x] DFS
 - [x] BFS
-- [ ] Bellman-Ford (Single Source Shortest Path)
 - [ ] Floyd-Warshall (All Shortest Path)
 - [ ] Ford-Fulkerson Method (Maximum Flow)
 
 ## 字符串算法
 - [x] KMP
-- [ ] Rabin-Karp
+- [x] Rabin-Karp 
+    * [白话分析字符串匹配算法——Rabin-Karp算法](http://blog.chinaunix.net/uid-23629988-id-2983531.html)
+- [x] BM
+    * [BM模式匹配算法-原理](http://www.iteye.com/topic/352954)
+    * [字符串匹配的Boyer-Moore算法](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)
 
 ## 线性规划
 - [ ] Simplex Method
@@ -87,4 +91,16 @@
 
 ## BFS(广度优先搜索)
 
-
+# 算法比较
+* Single Source Shortest Path
+    * Dijkstra
+        * 局限于边的权值非负的情况，若图中出现权值为负的边，该算法就是失效。 
+           <pre> 
+                  1 
+           O----------->O
+           |            ^ 
+           | 2       -1 |
+           ------>O------
+           </pre>
+    * Bellman Ford
+        * O(V*E)
